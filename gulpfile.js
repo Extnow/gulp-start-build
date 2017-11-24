@@ -18,10 +18,7 @@ gulp.task('html', function() {
 // css
 gulp.task('css', function() {
   return gulp.src('src/scss/style.scss')
-<<<<<<< HEAD
     .pipe(plumber())
-=======
->>>>>>> 7950e89eb92b27d5258923f8a473064562dad874
     .pipe(sass())
     .pipe(gulp.dest('build/css'))
     .pipe(browserSync.stream());
@@ -69,8 +66,5 @@ gulp.task("clean", function(){
 });
 
 // default
-<<<<<<< HEAD
 gulp.task('default', [ 'clean', 'html', 'css', 'img', 'imgmin', 'fonts', 'serve' ]);
-=======
-gulp.task('default', [ 'html', 'css', 'watch', 'server' ]);
->>>>>>> 7950e89eb92b27d5258923f8a473064562dad874
+
