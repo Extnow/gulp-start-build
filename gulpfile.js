@@ -66,5 +66,5 @@ gulp.task("clean", function(){
 });
 
 // default
-gulp.task('default', [ 'clean', 'html', 'css', 'img', 'imgmin', 'fonts', 'serve' ]);
+gulp.task('default', [ 'clean', 'html', 'css', 'imgmin', 'fonts', 'serve' ]);
 
