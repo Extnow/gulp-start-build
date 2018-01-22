@@ -54,7 +54,7 @@ gulp.task('html', function() {
 gulp.task('css', function() {
   return gulp.src(path.src.scss)
     .pipe(plumber())
-    .pipe(sass.sync().on('error', sass.logError))
+    .pipe(sass())
     .pipe(gulp.dest(path.build.scss))
     .pipe(browserSync.stream());
 });
