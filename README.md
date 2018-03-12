@@ -1,5 +1,5 @@
 # gulp-start-build
 
-npm i
+npm install - загрузка пакетов
 
-gulp
+gulp - запуск галпа
